@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #001032;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.weather-card {
+    background: linear-gradient(135deg, #24c6dc, #514a9d);
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.weather-card .search-container {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.weather-card input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    outline: none;
+}
+
+.weather-card button {
+    padding: 10px;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    background-color: #6da6dc;
+    color: white;
+    cursor: pointer;
+}
+
+.weather-card .icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.weather-card .temperature {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.weather-card .location {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.weather-card .details {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.weather-card .details div {
+    text-align: center;
+}
+
+.weather-card .details div span {
+    display: block;
+}
